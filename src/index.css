@@ -1,0 +1,38 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.board {
+  position: relative;
+  margin: auto;
+  background-color: #111;
+}
+
+.pacman {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.ghost {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-color: red;
+  border-radius: 50%;
+}
